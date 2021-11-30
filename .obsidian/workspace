@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "922830293509307c",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd8809ede4f11590",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Pôle Projet/Transfuser.md",
+            "mode": "source"
+          }
+        },
+        "group": "5906f84e0d12a019"
+      },
+      {
+        "id": "f92173d8cb67f122",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        },
+        "group": "5906f84e0d12a019"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52e3912ff9daf654",
+    "type": "split",
+    "children": [
+      {
+        "id": "24cd8ef50b4ed60f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c56f5e1f12790013",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7402786fd5ce02f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 131
+  },
+  "right": {
+    "id": "5e739bb0fae7f566",
+    "type": "split",
+    "children": [
+      {
+        "id": "425b55c0ad85b23c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4860bc26833d3ddb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f92173d8cb67f122",
+  "lastOpenFiles": [
+    "Pôle Projet/Transfuser.md",
+    "Pôle Projet/NEAT.md",
+    "Pôle Projet/Autonomous Driving.md",
+    "Machine Learning Course/Lecture 1.md"
+  ]
+}
