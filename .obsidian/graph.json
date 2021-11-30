@@ -8,23 +8,51 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "Nexus",
+      "color": {
+        "a": 1,
+        "rgb": 4064
+      }
+    },
+    {
       "query": "path:\"Pôle Projet\"",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "path:CV",
+      "color": {
+        "a": 1,
+        "rgb": 65310
+      }
+    },
+    {
+      "query": "path:NLP",
+      "color": {
+        "a": 1,
+        "rgb": 16772608
+      }
+    },
+    {
+      "query": "path:RL",
+      "color": {
+        "a": 1,
+        "rgb": 12583157
+      }
     }
   ],
-  "collapse-display": true,
-  "showArrow": true,
+  "collapse-display": false,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.434544886956815,
-  "close": false
+  "collapse-forces": true,
+  "centerStrength": 0.269662921348315,
+  "repelStrength": 7.97752808988764,
+  "linkStrength": 0.691011235955056,
+  "linkDistance": 268,
+  "scale": 0.6499846435861832,
+  "close": true
 }
