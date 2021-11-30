@@ -2,7 +2,7 @@
 [ArXiv](https://arxiv.org/pdf/2109.04456.pdf)
 
 Tags:
-/
+[[Autonomous Driving]]
 
 On définit maintenant les $(c_n)_{n=1,...,N}$ par :
 

@@ -5,54 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "Nexus",
+      "query": "file:Nexus",
       "color": {
         "a": 1,
-        "rgb": 4064
+        "rgb": 16777215
       }
     },
     {
       "query": "path:\"Pôle Projet\"",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16711680
       }
     },
     {
       "query": "path:CV",
       "color": {
         "a": 1,
-        "rgb": 65310
+        "rgb": 255
       }
     },
     {
       "query": "path:NLP",
       "color": {
         "a": 1,
-        "rgb": 16772608
+        "rgb": 16758036
       }
     },
     {
       "query": "path:RL",
       "color": {
         "a": 1,
-        "rgb": 12583157
+        "rgb": 65280
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 0.878235294117647,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.269662921348315,
-  "repelStrength": 7.97752808988764,
-  "linkStrength": 0.691011235955056,
-  "linkDistance": 268,
-  "scale": 0.6499846435861832,
-  "close": true
+  "collapse-forces": false,
+  "centerStrength": 0.410112359550562,
+  "repelStrength": 9.7752808988764,
+  "linkStrength": 1,
+  "linkDistance": 128,
+  "scale": 0.48361881569461074,
+  "close": false
 }

@@ -1,0 +1,5 @@
+# MobileNet
+
+Tags:
+[[ResNet]]
+[[CNN]]

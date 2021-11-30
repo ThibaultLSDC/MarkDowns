@@ -2,7 +2,8 @@
 [ArXiv](https://arxiv.org/pdf/2104.09224v1.pdf)
 
 Tags:
-/
+[[Autonomous Driving]]
+[[ViTs]]
 ### Imitation Learning
 ##### Integration de la vision et du LIDAR grâce à des transformers
 

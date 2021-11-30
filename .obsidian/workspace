@@ -4,25 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dd8809ede4f11590",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        },
-        "group": "5906f84e0d12a019"
-      },
-      {
         "id": "f92173d8cb67f122",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CV/Computer Vision.md",
+            "file": "Nexus.md",
             "mode": "source"
           }
-        },
-        "group": "5906f84e0d12a019"
+        }
       }
     ],
     "direction": "vertical"
@@ -62,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 131
+    "width": 187
   },
   "right": {
     "id": "5e739bb0fae7f566",
@@ -78,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Nexus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,15 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd8809ede4f11590",
+  "active": "f92173d8cb67f122",
   "lastOpenFiles": [
-    "CV/Computer Vision.md",
-    "RL/RL.md",
-    "NLP/NLP.md",
     "Nexus.md",
-    "Pôle Projet/Autonomous Driving.md",
-    "Pôle Projet/Transfuser.md",
-    "Pôle Projet/NEAT.md",
-    "Machine Learning Course/Lecture 1.md"
+    "NLP/Attention Mechanism.md",
+    "NLP/Transformers.md",
+    "CV/EfficientNet.md",
+    "CV/MobileNet.md",
+    "CV/ResNet.md",
+    "CV/CNN.md",
+    "CV/ViTs.md",
+    "NLP/LSTM.md",
+    "Pôle Projet/Transfuser.md"
   ]
 }
