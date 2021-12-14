@@ -1,3 +1,5 @@
 {
-  "attachmentFolderPath": "CV"
+  "attachmentFolderPath": "Ressources",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

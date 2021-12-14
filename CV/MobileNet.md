@@ -2,4 +2,3 @@
 
 Tags:
 [[ResNet]]
-[[CNN]]

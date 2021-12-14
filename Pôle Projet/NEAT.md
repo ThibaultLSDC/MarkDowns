@@ -1,8 +1,26 @@
 # NEAT : Neural Attention Fields for End-to-End Autonomous Driving
-[ArXiv](https://arxiv.org/pdf/2109.04456.pdf)
 
 Tags:
 [[Autonomous Driving]]
+
+
+Ajout de tâche auxiliaires pour orienter/améliorer l'apprentissage: CILRS proposait de  faire prédire au réseau la vélocité du véhicule en self-supervised
+Autres tâches essayées:
+- Image-autoencoding
+- 2D semantic segmentation
+- BEV semantic segmentation
+- 2D semantic prediction
+- BEV semantic prediction
+Ce dernier donne les meilleurs résultats : on prédit la segmentation de BEV dans les frames à venir, et le modèle incorpore mieux la structure de son environnement
+MAIS : cette tâche est souvent réalisée avec un LIDAR plus BEV en entrée -> la représentation en BEV se fait naturellement
+Ici on travaille en image only
+
+A partir d'une coordonnée BEV dans l'espace et le temps $(x, y, t)$ il n'est pas aisé de dire quels pixels de l'image sont à associer à la-dite position.
+C'est ce que NEAT field tant à résoudre.
+On cherche à apprendre chaque position de la BEV avec un seul vecteur d'attention tiré de l'encodage.
+La tâche est donc réalisée en prédisant des waypoints offset pour la trajectoire, et la BEV semantic prediction en auxiliaire.
+On rajoute $(x', y')$ aux données d'entrées, qui représente la destination globale.
+On a donc en entrée de NEAT des vecteurs dans $R^5$: $p=(x, y, t, x', y')$, et en sortie $o$ dans $R^2$, qui décrit le vecteur entre chaque point $x, y$ et le prochain waypoint.
 
 On définit maintenant les $(c_n)_{n=1,...,N}$ par :
 
@@ -38,3 +56,5 @@ Au résultat on a 2 loss, une L1 sur les offsets et une CE sur la classe de la z
 Controller:
 Les offsets sont fournis à un controleur PID, qui controle l'accélérateur/frein ainsi que le volant pour diriger la voiture vers le prochain waypoint. Le PID est bloqué si le decodeur détecte un feu rouge (en gros).
 
+
+[ArXiv](https://arxiv.org/pdf/2109.04456.pdf)
