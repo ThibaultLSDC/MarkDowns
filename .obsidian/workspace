@@ -6,10 +6,11 @@
       {
         "id": "e2d8b46ab62a0734",
         "type": "leaf",
+        "dimension": 45.79093432007401,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CV/LeNet-5.md",
+            "file": "RL/RL.md",
             "mode": "source"
           }
         },
@@ -18,11 +19,12 @@
       {
         "id": "c774a6f9575b226f",
         "type": "leaf",
+        "dimension": 54.20906567992599,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CV/LeNet-5.md",
-            "mode": "preview"
+            "file": "RL/RL.md",
+            "mode": "source"
           }
         },
         "group": "757a33fd25dc1dec"
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CV/LeNet-5.md",
+                "file": "RL/RL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +103,15 @@
   },
   "active": "e2d8b46ab62a0734",
   "lastOpenFiles": [
-    "CV/LeNet-5.md",
-    "CV/VGG.md",
-    "CV/AlexNet.md",
-    "CV/CNN.md",
-    "CV/ResNet.md",
-    "CV/MobileNet.md",
-    "CV/EfficientNet.md",
-    "CV/Computer Vision.md",
-    "comm jcs.md",
-    "role forma.md"
+    "RL/RL.md",
+    "Image enhancement.md",
+    "Ressources/LeNet-5.PNG",
+    "NLP/Transformers.md",
+    "NLP/RNN.md",
+    "NLP/NLP.md",
+    "NLP/LSTM.md",
+    "NLP/Attention Mechanism.md",
+    "Information Theory/Mutual information.md",
+    "CV/ViTs.md"
   ]
 }
